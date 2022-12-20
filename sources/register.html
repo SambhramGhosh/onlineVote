@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>New User Registration</title>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+        <style>
+            #reghd h3{
+                color: #e5d7fc;
+                border: 2px solid #e5d7fc;
+                border-radius: 5px;
+                width: 130px;
+                padding: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="hsec">
+        <h1>Vote Online!</h1>
+        </div>
+        <center>
+        <div id="formsec">
+        <form action="../api/register.php" method="post">
+            <div id="reghd">
+            <center><h3>Registration</h3></center>
+            </div>
+            <div id="namepl">
+            Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" placeholder="Enter Name" required><br><br>
+            Ph No:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="mob" placeholder="Enter Mobile" required><br><br>
+            Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pass" placeholder="Enter Password" required><br><br>
+            Confirm Password:&nbsp;<input type="password" name="cpass" placeholder="Confirm Password" required><br><br>
+            Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="add" placeholder="Enter Address" required><br><br><br>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select Photo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="photo" required>
+            <br><br>
+            <div id="rolest">
+            Select Role:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="role" required>
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+            </select></div><br>
+            <button id="butt" type="submit" name="registerbtn">Register</button><br><br>
+            Already User?<br><br><a href="../index.html">Login Here>></a>
+            </div>
+            
+        </form>
+        </div>
+        </center>
+    </body>
+</html>

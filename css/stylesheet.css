@@ -11,59 +11,64 @@ body{
     font-family: sans-serif;
 }
 #formsec{
-    color: white;
+    color: #ece1fa;
     background-color: blueviolet;
     border: 2px solid blueviolet;
     border-radius: 30px;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 450px;
+    height: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-bottom: 20px;
 }
 #formsec h3{
-    color: white;
-    border: 2px solid white;
+    color: #ece1fa;
+    border: 2px solid #ece1fa;
     border-radius: 5px;
-    margin-right: 180px;
-    margin-left: 180px;
+    width: 80px;
+    height: 25px;
     padding: 5px;
 }
-#formsec a{
+a{
     color: blueviolet;
-    background-color: #e5d7fc;
-    padding: 4px;
-    border-radius: 5px;
     text-decoration: none;
-    transition-duration: 0.3s;
+    padding: 4px;
+    background-color: #ece1fa;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    transition-duration: .3s;
 }
 #formsec input{
     border-radius: 3px;
 }
 /*This is the role styling in both pages*/
 #rolest{
+    color: blueviolet;
     padding: 10px;
-    border: 1px solid white;
-    border-radius: 3px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
     margin-left: 100px;
     margin-right: 100px;
+    background-color: #ece1fa;
 }
 #butt{
     color: blueviolet;
     padding: 4px;
-    background-color: #e5d7fc;
+    background-color: #ece1fa;
     border: 2px solid blueviolet;
     border-radius: 5px;
     transition-duration: .3s;
 }
 #butt:hover{
-    color: #e5d7fc;
+    color: #ece1fa;
     background-color: blueviolet;
-    border: 2px solid #e5d7fc;
+    border: 2px solid #ece1fa;
     border-radius: 5px;
 }
 a:hover{
-    border: 2px solid #e5d7fc;
-    border-radius: 4px;
+    color: #ece1fa;
+    background-color: blueviolet;
+    border: 2px solid #ece1fa;
+    border-radius: 5px;
 }

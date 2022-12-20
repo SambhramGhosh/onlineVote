@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Vote Online</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        
+    </head>
+    <body>
+        <div id="hsec">
+        <h1>Vote Online!</h1>
+        </div>
+        <center>
+        <div id="formsec">
+        <form action="api/login.php" method="post">
+            <center><h3>Login</h3></center>
+            Ph No:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="Mobile" placeholder="Enter Mobile" required><br><br>
+            Password: <input type="password" name="password" placeholder="Enter password" required><br><br>
+            <div id="rolest">
+            Role:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="role" required>
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+            </select></div>
+            <br><br>
+            <button id="butt" type="submit">Login</button>
+        </form><br>
+        New User?<br><br><a href="sources/register.html">Register here>></a>
+
+        </div>
+        </center>
+    </body>
+</html>
